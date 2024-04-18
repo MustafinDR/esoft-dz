@@ -1,21 +1,23 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.App-logo {
+.App-photo {
   height: 40vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #282c34;  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex-basis: 100%;
 }
 
 .App-link {
@@ -29,4 +31,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.competenc {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  align-items: stretch;
+  flex-basis: 50%;
+  box-sizing: border-box;
 }
